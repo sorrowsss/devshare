@@ -1,0 +1,105 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.CodeMirror {
+  height:  600px
+  
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#my-video {
+  margin-top: 15px;
+  width: 280px;
+  height: auto;
+  background-color: #eee;
+}
+
+#second-video {
+  width: 100%;
+  height: 75%;
+  max-height: 480px;
+  background-color: #eee;
+}
+
+#video-container {
+  text-align: center;
+}
+
+#step1-error, #step2, #step3 {
+  display: none;
+}
+
+#my-id {
+  font-weight: bold;
+}
+
+.room-input{
+  border: none;
+  padding:5px;
+  
+}
+input,select,textarea {
+  color:#110f0f;
+}
+
+button{
+    margin: 3px;
+    padding: 5px;
+}
+
+.title{
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  background-color: #444444;
+  color: white;
+ margin: 0;
+ padding: 5px;
+}
+
+.entry-modal{
+  border: 1px solid #444444;
+  width: 300px;
+  margin: auto;
+  z-index: 9999;
+  position: absolute;
+  left: 50%;
+  top: 70;
+  margin-left: -150px;
+  padding: 5px;
+  color: rgb(157, 32, 32);
+  background-color: #444444;
+  text-align: center;
+}
+
+#notification{
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  top: 47.33px;
+  font-size: 18pt;
+  width: 100%;
+  background-color: orange;
+}
+
+#Position{
+  position:absolute
+
+}
