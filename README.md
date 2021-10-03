@@ -29,7 +29,7 @@ The Text Chat don't carry the user's name because of Technical Problems, so i ma
    ```
 6. The Web App runs on Port "80", you can change it in "www" file or if you don't want to Modify the file, For exemple Run :
    ```
-   npm start --8000
+   npm start port --8000
    ```
    
  That's All, The Web app run on all network interfaces that are enabled on your pc At the same time , that means it will run on Localhost(127.0.0.1) and Lan (Ethernet Cable or wireless) And WAN
